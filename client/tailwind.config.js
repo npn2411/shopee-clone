@@ -8,7 +8,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#ee4d2d'
+        primary: '#ee4d2d',
+        containerBg: '#f5f5f5'
       }
     }
   },
@@ -18,9 +19,7 @@ export default {
         '.container': {
           maxWidth: '1280px',
           marginLeft: 'auto',
-          marginRight: 'auto',
-          paddingLeft: '1rem',
-          paddingRight: '1rem'
+          marginRight: 'auto'
         }
       })
     })
